@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizon Voyage</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="icon" href="ressources/favicon.png">
+</head>
+<body>
+
+
+    <!-- Navigation -->
+<nav>
+    <ul>
+    <li><a href="#home" class="items-navigation">Accueil</a></li>
+     <li><a href="#villes" class="items-navigation">Villes</a></li>
+     <li><a href="#transport" class="items-navigation">Moyens de transports</a></li>
+     <li><a href="#reservation" class="items-navigation">Réservation</a></li>
+    </ul>
+</nav>   
+
+
+<!-- Accueil -->
+<div class="accueil" id="home">
+    <div class="bloc-gauche-accueil">
+    <h1>Horizon Voyage</h1>
+    <p><img id="emoji" src="ressources/world-map.png">  Des estinations tout autour du monde</p>
+    <p><img id="emoji" src="ressources/person_medium-light-skin-tone.png">  Seul ou à plusieurs</p>
+    <p><img id="emoji" src="ressources/euro-banknote.png">  Des prix compétitifs</p>
+    <div class="cont-btn-home">
+    <a href="#equipement" class="btn-accueil b1">Équipement</a>
+    <a href="#contact" class="btn-accueil b2">Contact</a>
+    </div>
+    </div>
+    <div class="bloc-droit-accueil"></div>
+    </div>
+   
+   
+    <!-- Section 1 Infos -->
+<h2 class="titre-section-info">Villes incontournables</h2>
+
+<section class="section-info" id="villes">
+ <div class="carte-info">
+ <div class="container-photo-info">
+ <img id="photoinfo" src="ressources/img-info-1.jpg" alt="texte">
+ </div>
+ <h2>Paris</h2>
+ <p>Paris, ville de rêves et de découvertes</p>
+ <img class="deco-infos" src="ressources\choix d'icones\nuages points\points.png" alt="Decoration petits points noirs"/>
+ </div>
+ <div class="carte-info">
+ <div class="container-photo-info">
+ <img id="photoinfo" src="ressources/img-info-2.jpg" alt="texte">
+ </div>
+ <h2>New York</h2>
+ <p>New York, le rêve américain</p>
+ </div>
+ <div class="carte-info">
+ <div class="container-photo-info">
+ <img id="photoinfo" src="ressources/img-info-3.jpg" alt="texte">
+ </div>
+ <h2>Londres</h2>
+ <p>Londres, l'esprit britannique en action</p>
+ </div>
+</section>
+
+
+<!-- Section 2 choix -->
+<section id="choix">
+<div class="entrainement-choix">
+<h3>Voyage à Cancún</h3>
+<p>Séjour en famille (vol+hôtel) : 420 €</p>
+<a href="https://www.kayak.fr/sejours/riviera-maya-et-cozumel/cancun"><button class="btn-choix" type="button">
+Voir le voyage
+</button>
+</a>
+</div>
+<div class="entrainement-choix">
+<h3>Voyage à la reunion</h3>
+<p>Séjour en famille (vol+hôtel) : 257 €</p>
+<a href="https://www.kayak.fr/sejours/r%C3%A9union"> <button class="btn-choix" type="button">
+Voir le voyage
+</button>
+</a>
+</div>
+</section>
+
+<!-- Section équipements -->
+<h2 class="titre-equipements">Moyens de transports</h2>
+<section id="transport">
+<button class="btn-modale" type="button" data-index="1"></button>
+<button class="btn-modale" type="button" data-index="2"></button>
+<button class="btn-modale" type="button" data-index="3"></button>
+<button class="btn-modale" type="button" data-index="4"></button>
+<button class="btn-modale" type="button" data-index="5"></button>
+<button class="btn-modale" type="button" data-index="6"></button>
+<button class="btn-modale" type="button" data-index="7"></button>
+<button class="btn-modale" type="button" data-index="8"></button>
+<button class="btn-modale" type="button" data-index="9"></button>
+</section>
+<div class="bloc-modale">
+<div class="bloc-img">
+<img src="ressources/img1-equips.jpg" alt="CACA">
+<button class="fermeture-modale">X</button>
+</div>
+</div>
+<!-- Section Parallax -->
+<section class="parallax">
+    <!-- <video autoplay loop muted src="ressources/vid-paral.mp4"></video> -->
+    <p class="parallax-txt">Réservez</p>
+   </section>
+<!-- Section Tarifs -->
+<h2 class="titre-tarifs">TARIFS</h2>
+<section id="reservation">
+ <div class="carte-tarif">
+    <h3>Seul.</h3>
+ <p>Au Maldives.</p>
+ <p class="prix-carte"><span>2,430</span></p>
+</div>
+
+<div class="carte-tarif2">
+    <h3>Entre 2 et 4 prs.</h3>
+    <p>Au Maldives.</p>
+    <p class="prix-carte"><span>3,126</span></p>
+   </div>
+
+<div class="carte-tarif3">
+    <h3>5 prs ou +.</h3>
+    <p>Au Maldives.</p>
+    <p class="prix-carte"><span>3,432</span></p>
+   </div>
+</section>
+    <script src="app.js"></script>
+</body>
+</html>
